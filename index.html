@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cointainer">
+        <form action="https://api.web3forms.com/submit"  method="post" class="contact-left">
+            <div class="title">
+                <h1>Fill Up Here</h1>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="ab5c6877-a3ca-4012-b58b-a36fa42a56c5">
+            <input type="text" name="name" placeholder="Your Name" class="contact-input" autocomplete="off">
+            <input type="eamil" name="email" placeholder="Your Email" class="contact-input" required autocomplete="off">
+            <textarea name="message" placeholder="Your Message" class="contact-input" required
+                autocomplete="off"></textarea>
+            <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="assets/right_img.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
